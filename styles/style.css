@@ -96,9 +96,13 @@
     border: 1px solid;
     padding: 32px;
 }
+/* language section */
 .language-container{
     display: flex;
     gap: 40px;
+}
+.current-terget-title{
+    font-size: 32px;
 }
 .language{
     padding: 30px;
@@ -106,14 +110,26 @@
 }
 .language-html{
     background-color: #FFF6F3;
+    width: 365px;
+    border-radius: 16px;
 }
 .language-css{
     background-color: #F2F6FE;
+    width: 365px;
+    border-radius: 16px;
 }
 .language-js{
     background-color: #FFFDF2;
+    width: 365px;
+    border-radius: 16px;
+}
+.language-title{
+    font-size: 24px;
 }
 .about-language{
     width: 1140px;
     margin: auto;
+}
+.language-a{
+    margin-top: 24px;
 }
