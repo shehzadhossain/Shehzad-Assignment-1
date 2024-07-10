@@ -9,17 +9,23 @@
 /* shared styles */
 .font-size{
     font-size: 16px;
+    font-weight: 400px;
+}
+.web-development-sub-title{
+    font-size: 24px;
+}
+.text-align{
+    text-align: center;
 }
 /* header styles */
-header {
+.banner-part{
     background-image: url(../styles/assets/Hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 652px;
+    margin: auto;
 }
 .banner-content{
     text-align: center;
-    padding: 15px 220px 60px;
 }
 .banner-title{
     font-size: 48px;
@@ -40,5 +46,62 @@ header {
 }
 /* why web development styles */
 .web-development{
-    background-color: ;
+    background-color: #FAFAFB;
+    width: 1140px;
+    margin: auto;
+    border-radius: 16px;
+    margin-top: 60px;
+    margin-bottom: 90px;
+}
+.web-development-main-title{
+    font-size: 32px;
+    font-weight: 800px;
+}
+.web-development-title{
+    text-align: center;
+}
+.section-title{
+    display: flex;
+    margin: 48px;
+    justify-content: space-between;
+    padding: 48px;
+    background-image: linear-gradient(#FFFFFF, #FBFBFB);
+}
+.section-container{
+    gap: 48px;
+}
+.button{
+    margin-top: 32px;
+    padding: 12px 20px;
+    border-radius: 0;
+    border: 1px solid black;
+}
+.title-description{
+    margin: auto;
+}
+/* inspiration section style */
+.about-inspiration{
+    margin: auto;
+    width: 1140px;
+}
+.inspiration-title{
+    font-size: 32px;
+}
+.inspiration-details{
+    text-align: center;
+    margin-bottom: 48px;
+}
+.video {
+    border-radius: 16px;
+    border: 1px solid;
+    padding: 32px;
+}
+.language-container{
+    display: flex;
+    gap: 24px;
+}
+.language{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
