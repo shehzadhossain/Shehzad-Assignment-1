@@ -17,6 +17,9 @@
 .text-align{
     text-align: center;
 }
+.font-color{
+    color: white;
+}
 /* header styles */
 .banner-part{
     background-image: url(../styles/assets/Hero-bg.png);
@@ -38,8 +41,11 @@
     border-radius: 8px;
     border: none;
     background-color: #0D1321;
-    color: #FFFFFF;
     margin: 30px 375px 60px;
+}
+.footer-link{
+    color: #FFFFFF;
+    text-decoration: none;
 }
 .banner-sub-content{
     padding: 30px 220px;
@@ -144,9 +150,11 @@
     height: 313px;
     border-radius: 16px;
     text-align: center;
+    
 }
 .submit-details{
     padding: 64px 48px;
+    inline-size:auto;
 }
 .submit-title{
     font-size: 32px;
@@ -164,15 +172,22 @@
     text-align: justify;
     padding-top: 20px;
     padding-left: 20px;
+    border: none;
 }
 .submit-btn{
     font-size: 16px;
-    height: auto;
-    width: 120px;
+    height: 62px;
+    width: 200px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 17px 20px;
 }
 .input-form{
     align-items: center;
-    justify-content: space-between;
+    gap: 16px;
+    display: flex;
+    padding: 0px 180px;
+
 }
 /* footer-section */
 .footer{
