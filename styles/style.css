@@ -129,7 +129,26 @@
 .about-language{
     width: 1140px;
     margin: auto;
+    margin-bottom: 52px;
 }
 .language-a{
     margin-top: 24px;
+}
+/* submit-section */
+.submit{
+    background-image: url(../styles/assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    width: 1140px;
+    height: 313px;
+    border-radius: 16px;
+    text-align: center;
+}
+.submit-details{
+    padding: 64px 48px;
+}
+.submit-title{
+    font-size: 32px;
+    color: white;
 }
