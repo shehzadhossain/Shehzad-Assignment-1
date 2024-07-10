@@ -98,10 +98,22 @@
 }
 .language-container{
     display: flex;
-    gap: 24px;
+    gap: 40px;
 }
 .language{
     padding: 30px;
     border-radius: 5px;
-    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.language-html{
+    background-color: #FFF6F3;
+}
+.language-css{
+    background-color: #F2F6FE;
+}
+.language-js{
+    background-color: #FFFDF2;
+}
+.about-language{
+    width: 1140px;
+    margin: auto;
 }
